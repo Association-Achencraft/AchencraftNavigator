@@ -10,5 +10,4 @@ commands:
   nav:
     description: Plugin Navigator
     usage: /<command>
-    permission: navigator.nav
 

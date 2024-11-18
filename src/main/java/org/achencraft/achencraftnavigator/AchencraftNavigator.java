@@ -17,7 +17,7 @@ public final class AchencraftNavigator extends JavaPlugin {
         instance = this;
         getLogger().info("onEnable is called!");
 
-        getCommand("nav").setExecutor(new Commands());
+        getCommand("nav").setExecutor(new Commands(instance));
     }
 
 
