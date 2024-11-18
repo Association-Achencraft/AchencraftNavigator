@@ -9,11 +9,12 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>Achencraft_Navigator</name>
+    <name>AchencraftNavigator</name>
 
     <properties>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <dir>C:\Users\lucas\Desktop\dev\server de dev\plugins</dir>
     </properties>
     <url>https://achencraft.fr</url>
 
@@ -40,6 +41,7 @@
                         </goals>
                         <configuration>
                             <createDependencyReducedPom>false</createDependencyReducedPom>
+                            <outputDirectory>${dir}</outputDirectory>
                         </configuration>
                     </execution>
                 </executions>
@@ -68,7 +70,7 @@
         <dependency>
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot-api</artifactId>
-            <version>1.21-R0.1-SNAPSHOT</version>
+            <version>1.21.3-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>

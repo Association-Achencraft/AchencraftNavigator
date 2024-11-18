@@ -1,7 +1,14 @@
-name: Achencraft_Navigator
+name: AchencraftNavigator
 version: '${project.version}'
-main: org.achencraft.achencraftnavigator.Achencraft_Navigator
+main: org.achencraft.achencraftnavigator.AchencraftNavigator
 api-version: '1.21'
-prefix: [Navigator]
+prefix: Navigator
 authors: [Achencraft]
 website: https://achencraft.fr
+
+commands:
+  nav:
+    description: Plugin Navigator
+    usage: /<command>
+    permission: navigator.nav
+
