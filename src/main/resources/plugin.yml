@@ -1,0 +1,7 @@
+name: Achencraft_Navigator
+version: '${project.version}'
+main: org.achencraft.achencraftnavigator.Achencraft_Navigator
+api-version: '1.21'
+prefix: [Navigator]
+authors: [Achencraft]
+website: https://achencraft.fr
